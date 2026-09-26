@@ -1,32 +1,29 @@
 ---
-title: 'Meridian Store'
-description: 'A headless storefront tuned for speed, with sub-second navigation on every page.'
+title: 'Deno Fresh Video Platform'
+description: 'A minimal, blazingly fast video sharing platform.'
 category: 'Website'
-tech: ['Astro', 'Tailwind', 'Stripe', 'Cloudflare']
-year: 2025
-role: 'Frontend'
-client: 'Meridian'
-url: 'https://example.com'
+tech: ['Deno', 'Tailwind', 'Fresh', 'Video']
+year: 2026
+role: 'Fullstack'
+client: 'seanmerriam.com'
+url: 'https://github.com/freshframe'
 order: 3
 ---
 
 ## Overview
 
-Meridian sells a small, considered catalog and wanted a storefront that felt as
-crafted as the products. Speed was the brief, and speed was the deliverable.
+Freshframes is a blazingly fast, server side rendered, web application written in typescript; designed for easily building modern video sharing tube sites, including support for monitized membership sites and platforms. While the application boasts it's minimalism, it is also infinetly extensible with a typescript based plugin system and a backend run by deno. No two deployments are the same, and if you want a truly custom solution, freshframes is the best solution on the market.
 
 ## The challenge
 
-Their previous platform shipped megabytes of JavaScript to render a product grid.
-Pages felt sluggish on exactly the mobile connections their customers used.
+Most video on demand and streaming platforms that are sold to businesses are based on subpar application arcitechtures and almost 100% client-side javascript. Freshframes uses "islands" for any client side reactivity, effectively sandboxing the client side rendering to tiny, specific locations in the application, and everything else is 100% server side rendered. Most people don't believe they are actually on a real video site when they first try our platfoprm. It is really *that* fast.
 
 ## Approach
 
-- Rebuilt on Astro with static product pages and a tiny cart island
-- Deferred all non-critical scripts; the catalog is pure HTML and CSS
-- Moved checkout to a hosted Stripe flow to keep the bundle lean
+- Built one component at a time, ensuring only components that truly **must** be rendered by the client actually are.
+- A default installation ships with 0 client side javascript. The application is 100% server rendered by default.
+- Focused on delivering a truly custom product for business customers by giving them only what they *need* to run their video platform, and letting them choose to build on top of that base however they see fit.
 
-## Outcome
+## What you get
 
-Median page weight fell by 80%, and the store now scores in the high 90s on
-Lighthouse across the board.
+The number one question I am asked is "So what do I actually get?". We offer many license types, from $10/month all the way to $2/user per month for large enterprise customers who need extensive support and customization services. One thing you will always get is a reliable application that we guarantee will provide you a superior experience for your customers than any other video platform can offer.
